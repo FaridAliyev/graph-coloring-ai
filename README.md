@@ -25,7 +25,7 @@ To run the code on your local machine, follow these steps:
    ```
   
   After running this command you will get one of these two results:
-  - **`Solution found`** if the graph is colorable with the given input, and you will see the assigned color of each vertex
+  - **`Solution found`** if the graph is colorable with the given input, you will also see the assigned color of each vertex
   - **`Couldn't find a solution`** otherwise
 
 Feel free to change the input graph and the number of colors in the `graph.txt` file under the `resources` folder. The graph is undirected and provided in terms of its edges, e.g. *`1,2`* means there is a connection between vertex number 1 and 2. Find an example input below:
