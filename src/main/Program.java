@@ -12,7 +12,7 @@ public class Program {
 
         // print the results
         System.out.println(solved ? "Solution found" : "Couldn't find a solution");
-        for (Map.Entry<Vertex, List<Vertex>> entry : graph.getAdjacencyList().entrySet()) {
+        if (solved) for (Map.Entry<Vertex, List<Vertex>> entry : graph.getAdjacencyList().entrySet()) {
             Vertex vertex = entry.getKey();
             int color = vertex.currentColor;
             System.out.println("Vertex: " + vertex + ", Color: " + color);

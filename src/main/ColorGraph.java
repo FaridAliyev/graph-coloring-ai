@@ -14,7 +14,6 @@ public class ColorGraph {
     private int colorCount;
     private boolean solved = false;
 
-
     // read the graph from the file
     public static ColorGraph initGraph(String fileName) throws FileNotFoundException {
         ColorGraph graph = new ColorGraph();
